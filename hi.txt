@@ -1,3 +1,22 @@
 git commands: 
 
 git config --global user.name  "git_hub_username"
+
+
+git config --global user.email "github_email"
+
+
+Cloning:
+git clone "repo link"
+
+cd repo_folder
+
+
+add file.extension 
+
+git commit -m "commit message"
+
+git push
+
+
+
