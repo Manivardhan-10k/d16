@@ -1,2 +1,2 @@
 def welcome():
-    print("welcome to git!")
+    print("welcome to git user!")
