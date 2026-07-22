@@ -1,0 +1,405 @@
+> select * from categories ;
++------------+----------------+-------------------------------------+
+| CategoryID | CategoryName   | Description                         |
++------------+----------------+-------------------------------------+
+|          1 | Electronics    | Electronic gadgets and accessories  |
+|          2 | Clothing       | Men, women and kids clothing        |
+|          3 | Books          | Educational and story books         |
+|          4 | Home & Kitchen | Kitchen and home appliances         |
+|          5 | Sports         | Sports equipment and accessories    |
+|          6 | Beauty         | Beauty and personal care products   |
+|          7 | Toys           | Children toys and games             |
+|          8 | Furniture      | Home and office furniture           |
+|          9 | Groceries      | Daily grocery items                 |
+|         10 | Automotive     | Vehicle accessories and spare parts |
++------------+----------------+-------------------------------------+
+10 rows in set (0.0008 sec)
+ MySQL  localhost:33060+ ssl  d1  SQL > select * from suppliers;
++------------+----------------------+---------------+------------+---------------------------+---------------+
+| SupplierID | SupplierName         | ContactPerson | Phone      | Email                     | City          |
++------------+----------------------+---------------+------------+---------------------------+---------------+
+|          1 | Tech World Pvt Ltd   | Rahul Sharma  | 9876543210 | rahul@techworld.com       | Hyderabad     |
+|          2 | Fashion Hub          | Priya Reddy   | 9876543211 | priya@fashionhub.com      | Bengaluru     |
+|          3 | Book Haven           | Amit Kumar    | 9876543212 | amit@bookhaven.com        | Chennai       |
+|          4 | Home Essentials      | Sneha Patel   | 9876543213 | sneha@homeessentials.com  | Mumbai        |
+|          5 | Sports Arena         | Rohit Verma   | 9876543214 | rohit@sportsarena.com     | Delhi         |
+|          6 | Beauty Care Ltd      | Anjali Singh  | 9876543215 | anjali@beautycare.com     | Pune          |
+|          7 | Toy Galaxy           | Vikram Rao    | 9876543216 | vikram@toygalaxy.com      | Kolkata       |
+|          8 | Furniture Zone       | Meera Nair    | 9876543217 | meera@furniturezone.com   | Kochi         |
+|          9 | Fresh Mart Suppliers | Kiran Das     | 9876543218 | kiran@freshmart.com       | Visakhapatnam |
+|         10 | Auto Parts India     | Suresh Gupta  | 9876543219 | suresh@autopartsindia.com | Ahmedabad     |
+|         11 | mobile zone          | rahul mallam  | 9990000000 | rahu@gmail.com            | hyderabad     |
+|         12 | plywood point        | laxman        | 8888000000 | lux@gmail.com             | delhi         |
++------------+----------------------+---------------+------------+---------------------------+---------------+
+12 rows in set (0.0016 sec)
+ MySQL  localhost:33060+ ssl  d1  SQL > select * from products;
++-----------+------------+------------+--------------------------+-----------+--------------+-----------+
+| ProductID | CategoryID | SupplierID | ProductName              | UnitPrice | ReorderLevel | Status    |
++-----------+------------+------------+--------------------------+-----------+--------------+-----------+
+|         1 |          1 |          1 | Dell Inspiron 15 Laptop  |  55000.00 |           10 | Available |
+|         2 |          1 |          2 | Samsung Galaxy A55       |  32999.00 |           15 | Available |
+|         3 |          2 |          3 | Men Cotton T-Shirt       |    799.00 |           20 | Available |
+|         4 |          3 |          4 | Python Programming Book  |    650.00 |           12 | Available |
+|         5 |          4 |          5 | Prestige Pressure Cooker |   2499.00 |            8 | Available |
+|         6 |          5 |          6 | Yonex Badminton Racket   |   1999.00 |           15 | Available |
+|         7 |          6 |          7 | Lakme Face Cream         |    399.00 |           25 | Available |
+|         8 |          7 |          8 | Remote Control Car       |   1499.00 |           10 | Available |
+|         9 |          8 |          9 | Office Computer Chair    |   6499.00 |            5 | Available |
+|        10 |          9 |         10 | Basmati Rice 10Kg        |   1299.00 |           18 | Available |
+|        11 |          1 |         11 | iphone 15 pro            | 150000.00 |           10 | Available |
+|        12 |       NULL |       NULL | plywood table            |   2000.00 |           10 | Available |
+|        13 |          1 |          1 | HP Laptop                |  60000.00 |           10 | Available |
+|        14 |          1 |          1 | Dell Mouse               |    800.00 |           10 | Available |
++-----------+------------+------------+--------------------------+-----------+--------------+-----------+
+14 rows in set (0.0011 sec)
+ MySQL  localhost:33060+ ssl  d1  SQL > select * from customers;
++------------+--------------+------------+------------------------+---------------+------------------+
+| CustomerID | CustomerName | Phone      | Email                  | City          | RegistrationDate |
++------------+--------------+------------+------------------------+---------------+------------------+
+|        101 | Aarav Sharma | 9876500001 | aarav.sharma@gmail.com | Hyderabad     | 2026-01-10       |
+|        102 | Diya Reddy   | 9876500002 | diya.reddy@gmail.com   | Bengaluru     | 2026-01-15       |
+|        103 | Vivaan Kumar | 9876500003 | vivaan.kumar@gmail.com | Chennai       | 2026-02-02       |
+|        104 | Ananya Patel | 9876500004 | ananya.patel@gmail.com | Mumbai        | 2026-02-18       |
+|        105 | Aditya Singh | 9876500005 | aditya.singh@gmail.com | Delhi         | 2026-03-05       |
+|        106 | Meera Nair   | 9876500006 | meera.nair@gmail.com   | Kochi         | 2026-03-22       |
+|        107 | Krishna Rao  | 9876500007 | krishna.rao@gmail.com  | Visakhapatnam | 2026-04-10       |
+|        108 | Sneha Gupta  | 9876500008 | sneha.gupta@gmail.com  | Pune          | 2026-04-25       |
+|        109 | Rohan Das    | 9876500009 | rohan.das@gmail.com    | Kolkata       | 2026-05-12       |
+|        110 | Pooja Verma  | 9876500010 | pooja.verma@gmail.com  | Ahmedabad     | 2026-05-28       |
+|        111 | kethan       | 9999900000 | kk@gmail.com           | hyderabad     | 2026-05-29       |
+|        112 | shyam        | 9999990000 | shyam@gmail.com        | delhi         | 2026-05-30       |
++------------+--------------+------------+------------------------+---------------+------------------+
+12 rows in set (0.0059 sec)
+ MySQL  localhost:33060+ ssl  d1  SQL > select * from employees;
++------------+--------------+----------------------+----------+------------+
+| EmployeeID | EmployeeName | Designation          | Salary   | HireDate   |
++------------+--------------+----------------------+----------+------------+
+|        201 | Rahul Sharma | Store Manager        | 65000.00 | 2022-01-15 |
+|        202 | Priya Reddy  | Sales Executive      | 35000.00 | 2022-03-10 |
+|        203 | Amit Kumar   | Inventory Manager    | 48000.00 | 2021-11-05 |
+|        204 | Sneha Patel  | Cashier              | 28000.00 | 2023-02-20 |
+|        205 | Rohit Verma  | Purchase Manager     | 55000.00 | 2021-08-18 |
+|        206 | Anjali Singh | Sales Executive      | 36000.00 | 2023-05-12 |
+|        207 | Vikram Rao   | Warehouse Supervisor | 42000.00 | 2022-07-08 |
+|        208 | Meera Nair   | Accountant           | 50000.00 | 2021-09-25 |
+|        209 | Kiran Das    | Delivery Coordinator | 32000.00 | 2023-01-30 |
+|        210 | Suresh Gupta | HR Executive         | 45000.00 | 2022-10-14 |
++------------+--------------+----------------------+----------+------------+
+10 rows in set (0.0009 sec)
+ MySQL  localhost:33060+ ssl  d1  SQL > select * from orders;
++---------+------------+------------+---------------------+-------------+-----------+
+| OrderID | CustomerID | EmployeeID | OrderDate           | TotalAmount | Status    |
++---------+------------+------------+---------------------+-------------+-----------+
+|    1001 |        101 |        201 | 2026-06-01 10:15:00 |    55000.00 | Completed |
+|    1002 |        102 |        202 | 2026-06-02 11:30:00 |    32999.00 | Completed |
+|    1003 |        103 |        203 | 2026-06-03 09:45:00 |     1448.00 | Pending   |
+|    1004 |        104 |        204 | 2026-06-04 02:20:00 |      650.00 | Completed |
+|    1005 |        105 |        205 | 2026-06-05 04:10:00 |     2499.00 | Pending   |
+|    1006 |        106 |        206 | 2026-06-06 12:00:00 |     1999.00 | Completed |
+|    1007 |        107 |        207 | 2026-06-07 03:35:00 |      399.00 | Cancelled |
+|    1008 |        108 |        208 | 2026-06-08 01:50:00 |     1499.00 | Completed |
+|    1009 |        109 |        209 | 2026-06-09 05:15:00 |     6499.00 | Pending   |
+|    1010 |        110 |        210 | 2026-06-10 10:40:00 |     1299.00 | Completed |
++---------+------------+------------+---------------------+-------------+-----------+
+10 rows in set (0.0007 sec)
+ MySQL  localhost:33060+ ssl  d1  SQL > select * from orderdetails;
++---------------+---------+-----------+----------+--------------+
+| OrderDetailID | OrderID | ProductID | Quantity | SellingPrice |
++---------------+---------+-----------+----------+--------------+
+|             1 |    1001 |         1 |        1 |     55000.00 |
+|             2 |    1002 |         2 |        1 |     32999.00 |
+|             3 |    1003 |         3 |        2 |       799.00 |
+|             4 |    1004 |         4 |        1 |       650.00 |
+|             5 |    1005 |         5 |        1 |      2499.00 |
+|             6 |    1006 |         6 |        1 |      1999.00 |
+|             7 |    1007 |         7 |        1 |       399.00 |
+|             8 |    1008 |         8 |        1 |      1499.00 |
+|             9 |    1009 |         9 |        1 |      6499.00 |
+|            10 |    1010 |        10 |        1 |      1299.00 |
++---------------+---------+-----------+----------+--------------+
+10 rows in set (0.0008 sec)
+ MySQL  localhost:33060+ ssl  d1  SQL > select * from inventory;
++-------------+-----------+---------------+---------------------+
+| InventoryID | ProductID | StockQuantity | LastUpdated         |
++-------------+-----------+---------------+---------------------+
+|           1 |         1 |            25 | 2026-06-15 09:00:00 |
+|           2 |         2 |            40 | 2026-06-15 09:05:00 |
+|           3 |         3 |           120 | 2026-06-15 09:10:00 |
+|           4 |         4 |            85 | 2026-06-15 09:15:00 |
+|           5 |         5 |            30 | 2026-06-15 09:20:00 |
+|           6 |         6 |            45 | 2026-06-15 09:25:00 |
+|           7 |         7 |           150 | 2026-06-15 09:30:00 |
+|           8 |         8 |            35 | 2026-06-15 09:35:00 |
+|           9 |         9 |             0 | 2026-06-15 09:40:00 |
+|          10 |        10 |             0 | 2026-06-15 09:45:00 |
++-------------+-----------+---------------+---------------------+
+10 rows in set (0.0037 sec)
+ MySQL  localhost:33060+ ssl  d1  SQL > select * from payments;
++-----------+---------+----------+---------------+---------------------+---------------+
+| PaymentID | OrderID | Amount   | PaymentMethod | PaymentDate         | PaymentStatus |
++-----------+---------+----------+---------------+---------------------+---------------+
+|         1 |    1001 | 55000.00 | Card          | 2026-06-01 10:20:00 | Paid          |
+|         2 |    1002 | 32999.00 | UPI           | 2026-06-02 11:35:00 | Paid          |
+|         3 |    1003 |  1598.00 | Cash          | 2026-06-03 09:50:00 | Pending       |
+|         4 |    1004 |   650.00 | Net Banking   | 2026-06-04 14:25:00 | Paid          |
+|         5 |    1005 |  2499.00 | UPI           | 2026-06-05 16:15:00 | Pending       |
+|         6 |    1006 |  1999.00 | Card          | 2026-06-06 12:05:00 | Paid          |
+|         7 |    1007 |   399.00 | Cash          | 2026-06-07 15:40:00 | Failed        |
+|         8 |    1008 |  1499.00 | UPI           | 2026-06-08 13:55:00 | Paid          |
+|         9 |    1009 |  6499.00 | Net Banking   | 2026-06-09 17:20:00 | Pending       |
+|        10 |    1010 |  1299.00 | Card          | 2026-06-10 10:45:00 | Paid          |
++-----------+---------+----------+---------------+---------------------+---------------+
+10 rows in set (0.0043 sec)
+ MySQL  localhost:33060+ ssl  d1  SQL > select * from purchaseorders;
++------------+------------+------------+---------------------+-------------+
+| PurchaseID | SupplierID | EmployeeID | PurchaseDate        | TotalAmount |
++------------+------------+------------+---------------------+-------------+
+|       5001 |          1 |        205 | 2026-06-11 09:00:00 |   450000.00 |
+|       5002 |          2 |        205 | 2026-06-12 10:30:00 |   250000.00 |
+|       5003 |          3 |        203 | 2026-06-13 11:15:00 |    80000.00 |
+|       5004 |          4 |        205 | 2026-06-14 12:45:00 |    60000.00 |
+|       5005 |          5 |        207 | 2026-06-15 02:20:00 |    95000.00 |
+|       5006 |          6 |        203 | 2026-06-16 03:30:00 |    40000.00 |
+|       5007 |          7 |        205 | 2026-06-17 09:40:00 |    30000.00 |
+|       5008 |          8 |        207 | 2026-06-18 10:50:00 |   180000.00 |
+|       5009 |          9 |        203 | 2026-06-19 11:25:00 |   120000.00 |
+|       5010 |         10 |        205 | 2026-06-20 01:10:00 |    90000.00 |
++------------+------------+------------+---------------------+-------------+
+10 rows in set (0.0164 sec)
+ MySQL  localhost:33060+ ssl  d1  SQL > select * from purchasedetails;
++------------------+------------+-----------+----------+---------------+
+| PurchaseDetailID | PurchaseID | ProductID | Quantity | PurchasePrice |
++------------------+------------+-----------+----------+---------------+
+|                1 |       5001 |         1 |       10 |      50000.00 |
+|                2 |       5002 |         2 |        8 |      30000.00 |
+|                3 |       5003 |         3 |      100 |        650.00 |
+|                4 |       5004 |         4 |       80 |        500.00 |
+|                5 |       5005 |         5 |       40 |       2200.00 |
+|                6 |       5006 |         6 |       50 |       1700.00 |
+|                7 |       5007 |         7 |      150 |        300.00 |
+|                8 |       5008 |         8 |       60 |       1300.00 |
+|                9 |       5009 |         9 |       25 |       5800.00 |
+|               10 |       5010 |        10 |      100 |       1100.00 |
++------------------+------------+-----------+----------+---------------+
+10 rows in set (0.0020 sec)
+select o.orderid,c.customername,e.employeename,p.productname,od.quantity,od.sellingprice,o.totalamount,pay.paymentmethod,pay.paymentstatus,o.status as orderstatus from orders o join customers c on o.customerid = c.customerid join employees e on o.employeeid = e.employeeid join orderdetails od on o.orderid = od.orderid join products p on od.productid = p.productid
+join payments pay on o.orderid = pay.orderid;
++---------+--------------+--------------+--------------------------+----------+--------------+-------------+---------------+---------------+-------------+
+| OrderID | CustomerName | EmployeeName | ProductName              | Quantity | SellingPrice | TotalAmount | PaymentMethod | PaymentStatus | OrderStatus |
++---------+--------------+--------------+--------------------------+----------+--------------+-------------+---------------+---------------+-------------+
+|    1001 | Aarav Sharma | Rahul Sharma | Dell Inspiron 15 Laptop  |        1 |     55000.00 |    55000.00 | Card          | Paid          | Completed   |
+|    1002 | Diya Reddy   | Priya Reddy  | Samsung Galaxy A55       |        1 |     32999.00 |    32999.00 | UPI           | Paid          | Completed   |
+|    1003 | Vivaan Kumar | Amit Kumar   | Men Cotton T-Shirt       |        2 |       799.00 |     1448.00 | Cash          | Pending       | Pending     |
+|    1004 | Ananya Patel | Sneha Patel  | Python Programming Book  |        1 |       650.00 |      650.00 | Net Banking   | Paid          | Completed   |
+|    1005 | Aditya Singh | Rohit Verma  | Prestige Pressure Cooker |        1 |      2499.00 |     2499.00 | UPI           | Pending       | Pending     |
+|    1006 | Meera Nair   | Anjali Singh | Yonex Badminton Racket   |        1 |      1999.00 |     1999.00 | Card          | Paid          | Completed   |
+|    1007 | Krishna Rao  | Vikram Rao   | Lakme Face Cream         |        1 |       399.00 |      399.00 | Cash          | Failed        | Cancelled   |
+|    1008 | Sneha Gupta  | Meera Nair   | Remote Control Car       |        1 |      1499.00 |     1499.00 | UPI           | Paid          | Completed   |
+|    1009 | Rohan Das    | Kiran Das    | Office Computer Chair    |        1 |      6499.00 |     6499.00 | Net Banking   | Pending       | Pending     |
+|    1010 | Pooja Verma  | Suresh Gupta | Basmati Rice 10Kg        |        1 |      1299.00 |     1299.00 | Card          | Paid          | Completed   |
++---------+--------------+--------------+--------------------------+----------+--------------+-------------+---------------+---------------+-------------+
+10 rows in set (0.0028 sec)
+ select c.customerid,c.customername,count(o.orderid) as totalorders,sum(o.totalamount) as totalamountspent,max(o.orderdate) as recentpurchase from customers c join orders o on c.customerid = o.customerid group by c.customerid,c.customername;+------------+--------------+-------------+------------------+---------------------+
+| CustomerID | CustomerName | TotalOrders | TotalAmountSpent | RecentPurchase      |
++------------+--------------+-------------+------------------+---------------------+
+|        101 | Aarav Sharma |           1 |         55000.00 | 2026-06-01 10:15:00 |
+|        102 | Diya Reddy   |           1 |         32999.00 | 2026-06-02 11:30:00 |
+|        103 | Vivaan Kumar |           1 |          1448.00 | 2026-06-03 09:45:00 |
+|        104 | Ananya Patel |           1 |           650.00 | 2026-06-04 02:20:00 |
+|        105 | Aditya Singh |           1 |          2499.00 | 2026-06-05 04:10:00 |
+|        106 | Meera Nair   |           1 |          1999.00 | 2026-06-06 12:00:00 |
+|        107 | Krishna Rao  |           1 |           399.00 | 2026-06-07 03:35:00 |
+|        108 | Sneha Gupta  |           1 |          1499.00 | 2026-06-08 01:50:00 |
+|        109 | Rohan Das    |           1 |          6499.00 | 2026-06-09 05:15:00 |
+|        110 | Pooja Verma  |           1 |          1299.00 | 2026-06-10 10:40:00 |
++------------+--------------+-------------+------------------+---------------------+
+10 rows in set (0.0013 sec)
+ MySQL  localhost:33060+ ssl  d1  SQL > SELECT  o.orderid,c.customername,e.employeename,o.orderdate,o.totalamount,o.status from orders o join customers c on o.customerid = c.customerid JOIN Employees e ON o.EmployeeID = e.EmployeeID WHERE o.Status = 'Pending';
++---------+--------------+--------------+---------------------+-------------+---------+
+| OrderID | CustomerName | EmployeeName | OrderDate           | TotalAmount | Status  |
++---------+--------------+--------------+---------------------+-------------+---------+
+|    1003 | Vivaan Kumar | Amit Kumar   | 2026-06-03 09:45:00 |     1448.00 | Pending |
+|    1005 | Aditya Singh | Rohit Verma  | 2026-06-05 04:10:00 |     2499.00 | Pending |
+|    1009 | Rohan Das    | Kiran Das    | 2026-06-09 05:15:00 |     6499.00 | Pending |
++---------+--------------+--------------+---------------------+-------------+---------+
+3 rows in set (0.0029 sec)
+
+ MySQL  localhost:33060+ ssl  d1  SQL > select c.customerid,c.customername,o.totalamount from customers c join orders o on c.customerid=o.customerid order by totalamount desc limit 10;
++------------+--------------+-------------+
+| customerid | customername | totalamount |
++------------+--------------+-------------+
+|        101 | Aarav Sharma |    55000.00 |
+|        102 | Diya Reddy   |    32999.00 |
+|        109 | Rohan Das    |     6499.00 |
+|        105 | Aditya Singh |     2499.00 |
+|        106 | Meera Nair   |     1999.00 |
+|        108 | Sneha Gupta  |     1499.00 |
+|        103 | Vivaan Kumar |     1448.00 |
+|        110 | Pooja Verma  |     1299.00 |
+|        104 | Ananya Patel |      650.00 |
+|        107 | Krishna Rao  |      399.00 |
++------------+--------------+-------------+
+10 rows in set (0.0011 sec)
+select c.customerid,c.customername,c.phone,c.email,c.city from customers c left join orders o on c.customerid = o.customerid where orderid is null;
++------------+--------------+------------+-----------------+-----------+
+| customerid | customername | phone      | email           | city      |
++------------+--------------+------------+-----------------+-----------+
+|        111 | kethan       | 9999900000 | kk@gmail.com    | hyderabad |
+|        112 | shyam        | 9999990000 | shyam@gmail.com | delhi     |
++------------+--------------+------------+-----------------+-----------+
+2 rows in set (0.0012 sec)
+ 
+ MySQL  localhost:33060+ ssl  d1  SQL > select p.productid,p.productname,c.categoryname,s.suppliername,i.stockquantity,p.reorderlevel,p.status from products p join categories c on p.categoryid = c.categoryid join suppliers s on p.supplierid = s.supplierid join inventory i on p.productid = i.productid;
++-----------+--------------------------+----------------+----------------------+---------------+--------------+-----------+
+| productid | productname              | categoryname   | suppliername         | stockquantity | reorderlevel | status    |
++-----------+--------------------------+----------------+----------------------+---------------+--------------+-----------+
+|         1 | Dell Inspiron 15 Laptop  | Electronics    | Tech World Pvt Ltd   |            25 |           10 | Available |
+|         2 | Samsung Galaxy A55       | Electronics    | Fashion Hub          |            40 |           15 | Available |
+|         3 | Men Cotton T-Shirt       | Clothing       | Book Haven           |           120 |           20 | Available |
+|         4 | Python Programming Book  | Books          | Home Essentials      |            85 |           12 | Available |
+|         5 | Prestige Pressure Cooker | Home & Kitchen | Sports Arena         |            30 |            8 | Available |
+|         6 | Yonex Badminton Racket   | Sports         | Beauty Care Ltd      |            45 |           15 | Available |
+|         7 | Lakme Face Cream         | Beauty         | Toy Galaxy           |           150 |           25 | Available |
+|         8 | Remote Control Car       | Toys           | Furniture Zone       |            35 |           10 | Available |
+|         9 | Office Computer Chair    | Furniture      | Fresh Mart Suppliers |             0 |            5 | Available |
+|        10 | Basmati Rice 10Kg        | Groceries      | Auto Parts India     |             0 |           18 | Available |
++-----------+--------------------------+----------------+----------------------+---------------+--------------+-----------+
+10 rows in set (0.0013 sec)
+select p.productid,p.productname from products p left join orderdetails od on p.productid = od.productid where od.productid is null;
++-----------+---------------+
+| productid | productname   |
++-----------+---------------+
+|        11 | iphone 15 pro |
+|        12 | plywood table |
+|        13 | HP Laptop     |
+|        14 | Dell Mouse    |
++-----------+---------------+
+4 rows in set (0.0012 sec)
+ MySQL  localhost:33060+ ssl  d1  SQL > select p.productid,p.productname,i.stockquantity from products p join inventory i on p.productid = i.productid where i.stockquantity=0;
++-----------+-----------------------+---------------+
+| productid | productname           | stockquantity |
++-----------+-----------------------+---------------+
+|         9 | Office Computer Chair |             0 |
+|        10 | Basmati Rice 10Kg     |             0 |
++-----------+-----------------------+---------------+
+2 rows in set (0.0010 sec)
+ MySQL  localhost:33060+ ssl  d1  SQL > select p.productid,p.productname,i.stockquantity,p.reorderlevel from products p join inventory i on p.productid = i.productid where i.stockquantity<p.reorderlevel;
++-----------+-----------------------+---------------+--------------+
+| productid | productname           | stockquantity | reorderlevel |
++-----------+-----------------------+---------------+--------------+
+|         9 | Office Computer Chair |             0 |            5 |
+|        10 | Basmati Rice 10Kg     |             0 |           18 |
++-----------+-----------------------+---------------+--------------+
+2 rows in set (0.0011 sec)
+ MySQL  localhost:33060+ ssl  d1  SQL > select sum(i.stockquantity * p.unitprice)as totalinventoryvalue from products p join inventory i on p.productid = i.productid;
++---------------------+
+| totalinventoryvalue |
++---------------------+
+|          3123330.00 |
++---------------------+
+1 row in set (0.0008 sec)
+ MySQL  localhost:33060+ ssl  d1  SQL > select s.supplierid,s.suppliername,count(distinct p.productid)as totalproducts,sum(pd.quantity*pd.purchaseprice) as totalpurchasevalue from suppliers s join products p on s.supplierid = p.supplierid join purchasedetails pd on p.productid = pd.productid group by s.supplierid,s.suppliername;
++------------+----------------------+---------------+--------------------+
+| supplierid | suppliername         | totalproducts | totalpurchasevalue |
++------------+----------------------+---------------+--------------------+
+|          1 | Tech World Pvt Ltd   |             1 |          500000.00 |
+|          2 | Fashion Hub          |             1 |          240000.00 |
+|          3 | Book Haven           |             1 |           65000.00 |
+|          4 | Home Essentials      |             1 |           40000.00 |
+|          5 | Sports Arena         |             1 |           88000.00 |
+|          6 | Beauty Care Ltd      |             1 |           85000.00 |
+|          7 | Toy Galaxy           |             1 |           45000.00 |
+|          8 | Furniture Zone       |             1 |           78000.00 |
+|          9 | Fresh Mart Suppliers |             1 |          145000.00 |
+|         10 | Auto Parts India     |             1 |          110000.00 |
++------------+----------------------+---------------+--------------------+
+10 rows in set (0.0016 sec)
+ MySQL  localhost:33060+ ssl  d1  SQL > select s.supplierid,s.suppliername from suppliers s join products p on s.supplierid=p.supplierid left join purchasedetails pd on p.productid = pd.productid where pd.productid is null;
++------------+--------------------+
+| supplierid | suppliername       |
++------------+--------------------+
+|          1 | Tech World Pvt Ltd |
+|          1 | Tech World Pvt Ltd |
+|         11 | mobile zone        |
++------------+--------------------+
+3 rows in set (0.0012 sec)
+ MySQL  localhost:33060+ ssl  d1  SQL > select s.supplierid,s.suppliername,sum(od.quantity*od.sellingprice) as salesrevenue from suppliers s join products p on s.supplierid=p.supplierid join orderdetails od on p.productid = od.productid group by s.supplierid,s.suppliername order by salesrevenue desc limit 1;
++------------+--------------------+--------------+
+| supplierid | suppliername       | salesrevenue |
++------------+--------------------+--------------+
+|          1 | Tech World Pvt Ltd |     55000.00 |
++------------+--------------------+--------------+
+1 row in set (0.0012 sec)
+ MySQL  localhost:33060+ ssl  d1  SQL > select s.supplierid,s.suppliername,count(p.productid)as totalproducts from suppliers s join products p on s.supplierid =p.supplierid group by s.supplierid,s.suppliername having count(p.productid)>(select avg(productcount) from (select count(productid) as productcount from products group by supplierid) as avgproducts);
++------------+--------------------+---------------+
+| supplierid | suppliername       | totalproducts |
++------------+--------------------+---------------+
+|          1 | Tech World Pvt Ltd |             3 |
++------------+--------------------+---------------+
+1 row in set (0.0013 sec)
+ MySQL  localhost:33060+ ssl  d1  SQL > select e.employeeid,e.employeename,count(o.orderid) as totalorders from employees e join orders o on e.employeeid = o.employeeid group by e.employeeid,e.employeename order by totalorders desc limit 1;
++------------+--------------+-------------+
+| employeeid | employeename | totalorders |
++------------+--------------+-------------+
+|        201 | Rahul Sharma |           1 |
++------------+--------------+-------------+
+1 row in set (0.0011 sec)
+ MySQL  localhost:33060+ ssl  d1  SQL > select e.employeeid,e.employeename,count(o.orderid) as totalorders,sum(o.totalamount) as totalsales,avg(o.totalamount)as avgordervalue from employees e join orders o on e.employeeid = o.employeeid group by e.employeeid,e.employeename;
++------------+--------------+-------------+------------+---------------+
+| employeeid | employeename | totalorders | totalsales | avgordervalue |
++------------+--------------+-------------+------------+---------------+
+|        201 | Rahul Sharma |           1 |   55000.00 |  55000.000000 |
+|        202 | Priya Reddy  |           1 |   32999.00 |  32999.000000 |
+|        203 | Amit Kumar   |           1 |    1448.00 |   1448.000000 |
+|        204 | Sneha Patel  |           1 |     650.00 |    650.000000 |
+|        205 | Rohit Verma  |           1 |    2499.00 |   2499.000000 |
+|        206 | Anjali Singh |           1 |    1999.00 |   1999.000000 |
+|        207 | Vikram Rao   |           1 |     399.00 |    399.000000 |
+|        208 | Meera Nair   |           1 |    1499.00 |   1499.000000 |
+|        209 | Kiran Das    |           1 |    6499.00 |   6499.000000 |
+|        210 | Suresh Gupta |           1 |    1299.00 |   1299.000000 |
++------------+--------------+-------------+------------+---------------+
+10 rows in set (0.0021 sec)
+with employeesales as (select e.employeeid, e.employeename, e.designation, sum(o.totalamount) as totalsales from employees e join orders o on e.employeeid = o.employeeid group by e.employeeid, e.employeename, e.designation) select employeeid, employeename, designation, totalsales from employeesales e1 where totalsales > (select avg(totalsales) from employeesales e2 where e2.designation = e1.designation);+------------+--------------+-----------------+------------+
+| EmployeeID | EmployeeName | Designation     | TotalSales |
++------------+--------------+-----------------+------------+
+|        202 | Priya Reddy  | Sales Executive |   32999.00 |
++------------+--------------+-----------------+------------+
+1 row in set (0.0021 sec)
+ MySQL  localhost:33060+ ssl  d1  SQL > select c.categoryid, c.categoryname, sum(od.quantity * od.sellingprice) as totalrevenue from categories c join products p on c.categoryid = p.categoryid join orderdetails od on p.productid = od.productid group by c.categoryid, c.categoryname;+------------+----------------+--------------+
+| CategoryID | CategoryName   | TotalRevenue |
++------------+----------------+--------------+
+|          1 | Electronics    |     87999.00 |
+|          2 | Clothing       |      1598.00 |
+|          3 | Books          |       650.00 |
+|          4 | Home & Kitchen |      2499.00 |
+|          5 | Sports         |      1999.00 |
+|          6 | Beauty         |       399.00 |
+|          7 | Toys           |      1499.00 |
+|          8 | Furniture      |      6499.00 |
+|          9 | Groceries      |      1299.00 |
++------------+----------------+--------------+
+9 rows in set (0.0012 sec)
+ MySQL  localhost:33060+ ssl  d1  SQL > select month(orderdate) as month, count(orderid) as totalorders, sum(totalamount) as revenue, avg(totalamount) as avgordervalue from orders group by month(orderdate) order by month;
++-------+-------------+-----------+---------------+
+| Month | TotalOrders | Revenue   | AvgOrderValue |
++-------+-------------+-----------+---------------+
+|     6 |          10 | 104291.00 |  10429.100000 |
++-------+-------------+-----------+---------------+
+1 row in set (0.0011 sec)
+ MySQL  localhost:33060+ ssl  d1  SQL > select month(orderdate) as month, sum(totalamount) as revenue from orders group by month(orderdate) order by revenue desc limit 1;+-------+-----------+
+| Month | Revenue   |
++-------+-----------+
+|     6 | 104291.00 |
++-------+-----------+
+1 row in set (0.0010 sec)
+ MySQL  localhost:33060+ ssl  d1  SQL > select productid, productname, unitprice from products where unitprice > (select avg(unitprice) from products);
++-----------+-------------------------+-----------+
+| ProductID | ProductName             | UnitPrice |
++-----------+-------------------------+-----------+
+|         1 | Dell Inspiron 15 Laptop |  55000.00 |
+|         2 | Samsung Galaxy A55      |  32999.00 |
+|        11 | iphone 15 pro           | 150000.00 |
+|        13 | HP Laptop               |  60000.00 |
++-----------+-------------------------+-----------+
+4 rows in set (0.0010 sec)
