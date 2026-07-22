@@ -1,2 +1,2 @@
 def sample(name):
-  print(f"hello {name}")
+  print(f"welcome {name}")
