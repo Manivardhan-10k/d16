@@ -1,0 +1,982 @@
+{
+  "mobiles": [
+    {
+      "name": "nokia",
+      "color": "black",
+      "price": "1000",
+      "id": "H3vrOqoT1eU"
+    },
+    [],
+    {
+      "name": "Nokia",
+      "color": "Black",
+      "price": 1000,
+      "id": "G2bGo9TK5p0"
+    },
+    {
+      "name": "Samsung",
+      "color": "Blue",
+      "price": 25000,
+      "id": "4yN6gMOYtEY"
+    },
+    {
+      "name": "Realme",
+      "color": "Yellow",
+      "price": 18000,
+      "id": "qYX5qwo5n6o"
+    },
+    {
+      "name": "OnePlus",
+      "color": "Green",
+      "price": 35000,
+      "id": "eRBh3cdCpkY"
+    },
+    {
+      "name": "Vivo",
+      "color": "White",
+      "price": 22000,
+      "id": "izPraqi1LB8"
+    },
+    {
+      "name": "Oppo",
+      "color": "Purple",
+      "price": 21000,
+      "id": "hwdj_5Me3SQ"
+    },
+    {
+      "name": "Redmi",
+      "color": "Silver",
+      "price": 16000,
+      "id": "GmFnZoQaA10"
+    },
+    {
+      "name": "iPhone",
+      "color": "Gold",
+      "price": 85000,
+      "id": "k74x1CzyvRk"
+    },
+    {
+      "name": "Motorola",
+      "color": "Gray",
+      "price": 19000,
+      "id": "ekAQC-6DYug"
+    },
+    {
+      "name": "Google Pixel",
+      "color": "Pink",
+      "price": 65000,
+      "id": "cvh-FZVhMaQ"
+    },
+    {
+      "name": "Nokia",
+      "color": "Black",
+      "price": 1000,
+      "id": "CYubxK2YeGc"
+    },
+    {
+      "name": "Samsung",
+      "color": "Blue",
+      "price": 25000,
+      "id": "G3D7yk11ZrU"
+    },
+    {
+      "name": "Realme",
+      "color": "Yellow",
+      "price": 18000,
+      "id": "-hlEBzMcEiI"
+    },
+    {
+      "name": "OnePlus",
+      "color": "Green",
+      "price": 35000,
+      "id": "eeDv2CVIGwE"
+    },
+    {
+      "name": "Vivo",
+      "color": "White",
+      "price": 22000,
+      "id": "4mEAWQq3wB0"
+    },
+    {
+      "name": "Oppo",
+      "color": "Purple",
+      "price": 21000,
+      "id": "s8bjAyb1NfQ"
+    },
+    {
+      "name": "Redmi",
+      "color": "Silver",
+      "price": 16000,
+      "id": "eVBZ9r4BJkY"
+    },
+    {
+      "name": "iPhone",
+      "color": "Gold",
+      "price": 85000,
+      "id": "tXqsZTAvy1M"
+    },
+    {
+      "name": "Motorola",
+      "color": "Gray",
+      "price": 19000,
+      "id": "Q6D8jomztkg"
+    },
+    {
+      "name": "Google Pixel",
+      "color": "Pink",
+      "price": 65000,
+      "id": "VhmYUsrVQjs"
+    },
+    {
+      "name": "Nokia",
+      "color": "Black",
+      "price": 1000,
+      "id": "TQCNnw7kaFs"
+    },
+    {
+      "name": "Samsung",
+      "color": "Blue",
+      "price": 25000,
+      "id": "Ci9DyqKf4Kg"
+    },
+    {
+      "name": "Realme",
+      "color": "Yellow",
+      "price": 18000,
+      "id": "9IVKCmwjqDE"
+    },
+    {
+      "name": "OnePlus",
+      "color": "Green",
+      "price": 35000,
+      "id": "O8CbU_7EC_Q"
+    },
+    {
+      "name": "Vivo",
+      "color": "White",
+      "price": 22000,
+      "id": "hrAfQrhV7og"
+    },
+    {
+      "name": "Oppo",
+      "color": "Purple",
+      "price": 21000,
+      "id": "bHwsIsf3KWw"
+    },
+    {
+      "name": "Redmi",
+      "color": "Silver",
+      "price": 16000,
+      "id": "YgRgmrobtdA"
+    },
+    {
+      "name": "iPhone",
+      "color": "Gold",
+      "price": 85000,
+      "id": "jgn0RZzEQdM"
+    },
+    {
+      "name": "Motorola",
+      "color": "Gray",
+      "price": 19000,
+      "id": "DywXNw8snew"
+    },
+    {
+      "name": "Google Pixel",
+      "color": "Pink",
+      "price": 65000,
+      "id": "yaWCTJGIauw"
+    },
+    {
+      "name": "Nokia",
+      "color": "Black",
+      "price": 1000,
+      "id": "xRfgoxiM4F4"
+    },
+    {
+      "name": "Samsung",
+      "color": "Blue",
+      "price": 25000,
+      "id": "B6L1XglEYMQ"
+    },
+    {
+      "name": "Realme",
+      "color": "Yellow",
+      "price": 18000,
+      "id": "_oZ_Ng1qOtA"
+    },
+    {
+      "name": "OnePlus",
+      "color": "Green",
+      "price": 35000,
+      "id": "DvIdJaCUpqU"
+    },
+    {
+      "name": "Vivo",
+      "color": "White",
+      "price": 22000,
+      "id": "82Q1qFTfxq8"
+    },
+    {
+      "name": "Oppo",
+      "color": "Purple",
+      "price": 21000,
+      "id": "iMEYtaC3H_o"
+    },
+    {
+      "name": "Redmi",
+      "color": "Silver",
+      "price": 16000,
+      "id": "XVe8fZLjALk"
+    },
+    {
+      "name": "iPhone",
+      "color": "Gold",
+      "price": 85000,
+      "id": "CRYwO0IimNc"
+    },
+    {
+      "name": "Motorola",
+      "color": "Gray",
+      "price": 19000,
+      "id": "mRCbNJ6UMas"
+    },
+    {
+      "name": "Google Pixel",
+      "color": "Pink",
+      "price": 65000,
+      "id": "F7cLNfzNS50"
+    },
+    {
+      "name": "Nokia",
+      "color": "Black",
+      "price": 1000,
+      "id": "5ta2NiW4Hws"
+    },
+    {
+      "name": "Samsung",
+      "color": "Blue",
+      "price": 25000,
+      "id": "INJF42FojS8"
+    },
+    {
+      "name": "Realme",
+      "color": "Yellow",
+      "price": 18000,
+      "id": "qc4axIWWa9g"
+    },
+    {
+      "name": "OnePlus",
+      "color": "Green",
+      "price": 35000,
+      "id": "_mj2l08k6nI"
+    },
+    {
+      "name": "Vivo",
+      "color": "White",
+      "price": 22000,
+      "id": "Fcavf4nKzKA"
+    },
+    {
+      "name": "Oppo",
+      "color": "Purple",
+      "price": 21000,
+      "id": "vOHV5vVUgf4"
+    },
+    {
+      "name": "Redmi",
+      "color": "Silver",
+      "price": 16000,
+      "id": "NPvA773-0f4"
+    },
+    {
+      "name": "iPhone",
+      "color": "Gold",
+      "price": 85000,
+      "id": "gViUJP-xhAs"
+    },
+    {
+      "name": "Motorola",
+      "color": "Gray",
+      "price": 19000,
+      "id": "PFGda0JeyB0"
+    },
+    {
+      "name": "Google Pixel",
+      "color": "Pink",
+      "price": 65000,
+      "id": "omQ2xLjljn0"
+    },
+    {
+      "name": "Nokia",
+      "color": "Black",
+      "price": 1000,
+      "id": "_6GMtE37wNE"
+    },
+    {
+      "name": "Samsung",
+      "color": "Blue",
+      "price": 25000,
+      "id": "iuK8QhtqJ6A"
+    },
+    {
+      "name": "Realme",
+      "color": "Yellow",
+      "price": 18000,
+      "id": "TL2rLl19K-s"
+    },
+    {
+      "name": "OnePlus",
+      "color": "Green",
+      "price": 35000,
+      "id": "ncBuw1XthzU"
+    },
+    {
+      "name": "Vivo",
+      "color": "White",
+      "price": 22000,
+      "id": "n5OfIYHj6kI"
+    },
+    {
+      "name": "Oppo",
+      "color": "Purple",
+      "price": 21000,
+      "id": "6mPpIWmOVas"
+    },
+    {
+      "name": "Redmi",
+      "color": "Silver",
+      "price": 16000,
+      "id": "dkNtCOq1CSU"
+    },
+    {
+      "name": "iPhone",
+      "color": "Gold",
+      "price": 85000,
+      "id": "gwFkTLzQ2M8"
+    },
+    {
+      "name": "Motorola",
+      "color": "Gray",
+      "price": 19000,
+      "id": "V4AVHNCI7oE"
+    },
+    {
+      "name": "Google Pixel",
+      "color": "Pink",
+      "price": 65000,
+      "id": "T345_GlFq1I"
+    },
+    {
+      "name": "Nokia",
+      "color": "Black",
+      "price": 1000,
+      "id": "lFa3eAs4sp8"
+    },
+    {
+      "name": "Samsung",
+      "color": "Blue",
+      "price": 25000,
+      "id": "HMASos_wjwA"
+    },
+    {
+      "name": "Realme",
+      "color": "Yellow",
+      "price": 18000,
+      "id": "qOA1eq_XCO8"
+    },
+    {
+      "name": "OnePlus",
+      "color": "Green",
+      "price": 35000,
+      "id": "Z_A9cR9OWTA"
+    },
+    {
+      "name": "Vivo",
+      "color": "White",
+      "price": 22000,
+      "id": "kjCUXm2jdx0"
+    },
+    {
+      "name": "Oppo",
+      "color": "Purple",
+      "price": 21000,
+      "id": "gmn17Hj_enU"
+    },
+    {
+      "name": "Redmi",
+      "color": "Silver",
+      "price": 16000,
+      "id": "UnUY8Vgo38M"
+    },
+    {
+      "name": "iPhone",
+      "color": "Gold",
+      "price": 85000,
+      "id": "PV49Y_7CM4Q"
+    },
+    {
+      "name": "Motorola",
+      "color": "Gray",
+      "price": 19000,
+      "id": "8ng2qdlc6FU"
+    },
+    {
+      "name": "Google Pixel",
+      "color": "Pink",
+      "price": 65000,
+      "id": "cjR7-7ZWsLw"
+    },
+    {
+      "name": "Nokia",
+      "color": "Black",
+      "price": 1000,
+      "id": "NltFAn-X_vQ"
+    },
+    {
+      "name": "Samsung",
+      "color": "Blue",
+      "price": 25000,
+      "id": "TWnzQuhVqe0"
+    },
+    {
+      "name": "Realme",
+      "color": "Yellow",
+      "price": 18000,
+      "id": "3VZkUGkHnr8"
+    },
+    {
+      "name": "OnePlus",
+      "color": "Green",
+      "price": 35000,
+      "id": "A9ZhmJRTzNE"
+    },
+    {
+      "name": "Vivo",
+      "color": "White",
+      "price": 22000,
+      "id": "pjKbZcyyyGE"
+    },
+    {
+      "name": "Oppo",
+      "color": "Purple",
+      "price": 21000,
+      "id": "gb5sv1hk14w"
+    },
+    {
+      "name": "Redmi",
+      "color": "Silver",
+      "price": 16000,
+      "id": "7xyvuKMmQ6M"
+    },
+    {
+      "name": "iPhone",
+      "color": "Gold",
+      "price": 85000,
+      "id": "com6AnIQKbo"
+    },
+    {
+      "name": "Motorola",
+      "color": "Gray",
+      "price": 19000,
+      "id": "2ZfKTpO6DeU"
+    },
+    {
+      "name": "Google Pixel",
+      "color": "Pink",
+      "price": 65000,
+      "id": "VXBazl3kiw0"
+    },
+    {
+      "name": "Nokia",
+      "color": "Black",
+      "price": 1000,
+      "id": "CEzv56AUivI"
+    },
+    {
+      "name": "Samsung",
+      "color": "Blue",
+      "price": 25000,
+      "id": "ebABDqDDqlU"
+    },
+    {
+      "name": "Realme",
+      "color": "Yellow",
+      "price": 18000,
+      "id": "IaAr1AdPu2U"
+    },
+    {
+      "name": "OnePlus",
+      "color": "Green",
+      "price": 35000,
+      "id": "OjbU35vKt_0"
+    },
+    {
+      "name": "Vivo",
+      "color": "White",
+      "price": 22000,
+      "id": "sSKefXanG5c"
+    },
+    {
+      "name": "Oppo",
+      "color": "Purple",
+      "price": 21000,
+      "id": "9nHGX8uYWQA"
+    },
+    {
+      "name": "Redmi",
+      "color": "Silver",
+      "price": 16000,
+      "id": "AFp5CPnqf-o"
+    },
+    {
+      "name": "iPhone",
+      "color": "Gold",
+      "price": 85000,
+      "id": "Bydyku548Es"
+    },
+    {
+      "name": "Motorola",
+      "color": "Gray",
+      "price": 19000,
+      "id": "agSznopbSCw"
+    },
+    {
+      "name": "Google Pixel",
+      "color": "Pink",
+      "price": 65000,
+      "id": "FnsQ7rPCzpU"
+    }
+  ],
+  "laptops": [
+    {
+      "brand": "HP",
+      "model": "Pavilion",
+      "price": 62000,
+      "id": "37JswZdSgxA"
+    },
+    {
+      "brand": "HP",
+      "model": "Pavilion",
+      "price": 62000,
+      "id": "WU4xQBo6jO0"
+    },
+    {
+      "brand": "Dell",
+      "model": "Inspiron 15",
+      "price": 55000,
+      "id": "ovjKBLAjFAI"
+    },
+    {
+      "brand": "Lenovo",
+      "model": "IdeaPad Slim 5",
+      "price": 64000,
+      "id": "3lbUqEveh6U"
+    },
+    {
+      "brand": "Acer",
+      "model": "Aspire 7",
+      "price": 68000,
+      "id": "JzeXdW-YOXo"
+    },
+    {
+      "brand": "ASUS",
+      "model": "Vivobook 15",
+      "price": 62000,
+      "id": "iCkfpLRjE7w"
+    },
+    {
+      "brand": "Apple",
+      "model": "MacBook Air M3",
+      "price": 134900,
+      "id": "jvXDF_KFDps"
+    },
+    {
+      "brand": "MSI",
+      "model": "GF63 Thin",
+      "price": 92000,
+      "id": "vXoiaHW0JB8"
+    },
+    {
+      "brand": "Samsung",
+      "model": "Galaxy Book4",
+      "price": 78000,
+      "id": "sqt5s59HVCI"
+    },
+    {
+      "brand": "LG",
+      "model": "Gram 16",
+      "price": 125000,
+      "id": "DbrOMbVyAcI"
+    },
+    {
+      "brand": "Huawei",
+      "model": "MateBook D16",
+      "price": 98000,
+      "id": "YwDbK0LRZ7k"
+    },
+    {
+      "brand": "HP",
+      "model": "Pavilion",
+      "price": 62000,
+      "id": "R5R7a-_RhH4"
+    },
+    {
+      "brand": "Dell",
+      "model": "Inspiron 15",
+      "price": 55000,
+      "id": "sLQz5ZJpwCg"
+    },
+    {
+      "brand": "Lenovo",
+      "model": "IdeaPad Slim 5",
+      "price": 64000,
+      "id": "4m4JioELpEM"
+    },
+    {
+      "brand": "Acer",
+      "model": "Aspire 7",
+      "price": 68000,
+      "id": "5AD2HVEZ3qE"
+    },
+    {
+      "brand": "ASUS",
+      "model": "Vivobook 15",
+      "price": 62000,
+      "id": "r9gQIOHw46I"
+    },
+    {
+      "brand": "Apple",
+      "model": "MacBook Air M3",
+      "price": 134900,
+      "id": "1z2Ym9BChKU"
+    },
+    {
+      "brand": "MSI",
+      "model": "GF63 Thin",
+      "price": 92000,
+      "id": "QFHXy-wz2TI"
+    },
+    {
+      "brand": "Samsung",
+      "model": "Galaxy Book4",
+      "price": 78000,
+      "id": "SvrlYd26u8E"
+    },
+    {
+      "brand": "LG",
+      "model": "Gram 16",
+      "price": 125000,
+      "id": "OWlrXBo4u_k"
+    },
+    {
+      "brand": "Huawei",
+      "model": "MateBook D16",
+      "price": 98000,
+      "id": "6j-F-UbEPhE"
+    },
+    {
+      "title": "Python Basics",
+      "author": "John Smith",
+      "price": 450,
+      "id": "cluC6kbfp2A"
+    },
+    {
+      "title": "Java Programming",
+      "author": "James Lee",
+      "price": 550,
+      "id": "sj7nGZGPx5M"
+    },
+    {
+      "title": "SQL Essentials",
+      "author": "David Brown",
+      "price": 400,
+      "id": "q2GjhyGdH7o"
+    },
+    {
+      "title": "C Programming",
+      "author": "Dennis Ritchie",
+      "price": 350,
+      "id": "BGAYTQarJmQ"
+    },
+    {
+      "title": "Web Development",
+      "author": "Alice Green",
+      "price": 600,
+      "id": "aq92vTNeNKU"
+    },
+    {
+      "title": "Data Structures",
+      "author": "Mark Wilson",
+      "price": 700,
+      "id": "swNgvmzU0IY"
+    },
+    {
+      "title": "Machine Learning",
+      "author": "Andrew Ng",
+      "price": 900,
+      "id": "NT5rzFP-IE0"
+    },
+    {
+      "title": "AI Fundamentals",
+      "author": "Tom White",
+      "price": 850,
+      "id": "Br-S_QEsy5A"
+    },
+    {
+      "title": "Cloud Computing",
+      "author": "Sarah Miller",
+      "price": 750,
+      "id": "e7Tih-aLYrA"
+    },
+    {
+      "title": "Cyber Security",
+      "author": "Kevin Mitnick",
+      "price": 800,
+      "id": "-O6B0pdRZ7Y"
+    },
+    {
+      "brand": "HP",
+      "model": "Pavilion",
+      "price": 62000,
+      "id": "TvSJZltedbA"
+    },
+    {
+      "brand": "Dell",
+      "model": "Inspiron 15",
+      "price": 55000,
+      "id": "7uDm1Ss3wOE"
+    },
+    {
+      "brand": "Lenovo",
+      "model": "IdeaPad Slim 5",
+      "price": 64000,
+      "id": "Lxm6akokIY0"
+    },
+    {
+      "brand": "Acer",
+      "model": "Aspire 7",
+      "price": 68000,
+      "id": "zN4SrF6O5Ds"
+    },
+    {
+      "brand": "ASUS",
+      "model": "Vivobook 15",
+      "price": 62000,
+      "id": "BXRhyhDTKng"
+    },
+    {
+      "brand": "Apple",
+      "model": "MacBook Air M3",
+      "price": 134900,
+      "id": "GwxxzmypaSM"
+    },
+    {
+      "brand": "MSI",
+      "model": "GF63 Thin",
+      "price": 92000,
+      "id": "njwTqENV4-Y"
+    },
+    {
+      "brand": "Samsung",
+      "model": "Galaxy Book4",
+      "price": 78000,
+      "id": "dzAxfkPfl38"
+    },
+    {
+      "brand": "LG",
+      "model": "Gram 16",
+      "price": 125000,
+      "id": "5XFUaRnad94"
+    },
+    {
+      "brand": "Huawei",
+      "model": "MateBook D16",
+      "price": 98000,
+      "id": "ruVMWAJDgQU"
+    },
+    {
+      "title": "Python Basics",
+      "author": "John Smith",
+      "price": 450,
+      "id": "6FaxCn8yV3Y"
+    },
+    {
+      "title": "Java Programming",
+      "author": "James Lee",
+      "price": 550,
+      "id": "x0s6LbGNFJY"
+    },
+    {
+      "title": "SQL Essentials",
+      "author": "David Brown",
+      "price": 400,
+      "id": "QZzt5zYecjg"
+    },
+    {
+      "title": "C Programming",
+      "author": "Dennis Ritchie",
+      "price": 350,
+      "id": "uLOuUSiarKM"
+    },
+    {
+      "title": "Web Development",
+      "author": "Alice Green",
+      "price": 600,
+      "id": "xL4v6VhN2f8"
+    },
+    {
+      "title": "Data Structures",
+      "author": "Mark Wilson",
+      "price": 700,
+      "id": "Lk8gS-AyQu0"
+    },
+    {
+      "title": "Machine Learning",
+      "author": "Andrew Ng",
+      "price": 900,
+      "id": "9KJAqwtXco4"
+    },
+    {
+      "title": "AI Fundamentals",
+      "author": "Tom White",
+      "price": 850,
+      "id": "rsYd5s2kHRk"
+    },
+    {
+      "title": "Cloud Computing",
+      "author": "Sarah Miller",
+      "price": 750,
+      "id": "jI_YpBg1cAE"
+    },
+    {
+      "title": "Cyber Security",
+      "author": "Kevin Mitnick",
+      "price": 800,
+      "id": "I1TNrhQVNvQ"
+    },
+    {
+      "title": "Inception",
+      "genre": "Sci-Fi",
+      "rating": 8.8,
+      "id": "Lc1igePlIF8"
+    },
+    {
+      "title": "Interstellar",
+      "genre": "Sci-Fi",
+      "rating": 8.7,
+      "id": "aiEBouZQORc"
+    },
+    {
+      "title": "The Dark Knight",
+      "genre": "Action",
+      "rating": 9,
+      "id": "KKFhGOyYJT8"
+    },
+    {
+      "title": "Avengers: Endgame",
+      "genre": "Action",
+      "rating": 8.4,
+      "id": "GeEUiDHZlFQ"
+    },
+    {
+      "title": "Titanic",
+      "genre": "Romance",
+      "rating": 7.9,
+      "id": "Czcc570G5qc"
+    },
+    {
+      "title": "Joker",
+      "genre": "Drama",
+      "rating": 8.4,
+      "id": "1mc3ndcZMfg"
+    },
+    {
+      "title": "3 Idiots",
+      "genre": "Comedy",
+      "rating": 8.4,
+      "id": "CAMAtkn1O5o"
+    },
+    {
+      "title": "Baahubali",
+      "genre": "Action",
+      "rating": 8,
+      "id": "FOMrlD_4apI"
+    },
+    {
+      "title": "RRR",
+      "genre": "Action",
+      "rating": 7.8,
+      "id": "KTgOmkwabXE"
+    },
+    {
+      "title": "Pushpa",
+      "genre": "Action",
+      "rating": 7.6,
+      "id": "Eqp5uH7QHmc"
+    },
+    {
+      "title": "Shape of You",
+      "artist": "Ed Sheeran",
+      "duration": "3:53",
+      "id": "VVhCtv8xZRw"
+    },
+    {
+      "title": "Blinding Lights",
+      "artist": "The Weeknd",
+      "duration": "3:20",
+      "id": "uk-66rk_uRQ"
+    },
+    {
+      "title": "Perfect",
+      "artist": "Ed Sheeran",
+      "duration": "4:23",
+      "id": "Gke3fC_GuOo"
+    },
+    {
+      "title": "Believer",
+      "artist": "Imagine Dragons",
+      "duration": "3:24",
+      "id": "2qrS5ru1cHs"
+    },
+    {
+      "title": "Levitating",
+      "artist": "Dua Lipa",
+      "duration": "3:23",
+      "id": "ynCkEKjCWlw"
+    },
+    {
+      "title": "Naatu Naatu",
+      "artist": "Rahul Sipligunj",
+      "duration": "3:34",
+      "id": "6lH_CA3mhC0"
+    },
+    {
+      "title": "Srivalli",
+      "artist": "Sid Sriram",
+      "duration": "3:44",
+      "id": "xN27l2aiUk0"
+    },
+    {
+      "title": "Kesariya",
+      "artist": "Arijit Singh",
+      "duration": "4:28",
+      "id": "y3VvPUSUyxg"
+    },
+    {
+      "title": "Butta Bomma",
+      "artist": "Armaan Malik",
+      "duration": "3:15",
+      "id": "30hAQf7GwGY"
+    },
+    {
+      "title": "Samajavaragamana",
+      "artist": "Sid Sriram",
+      "duration": "3:49",
+      "id": "70tdrocd9HM"
+    }
+  ],
+  "books": [],
+  "songs": [],
+  "$schema": "./node_modules/json-server/schema.json"
+}
