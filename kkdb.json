@@ -1,0 +1,317 @@
+{
+  "mobiles": [
+    {
+      "name": "Nokia",
+      "color": "Black",
+      "price": 1000,
+      "id": "G2bGo9TK5p0"
+    },
+    {
+      "name": "Samsung",
+      "color": "Blue",
+      "price": 25000,
+      "id": "4yN6gMOYtEY"
+    },
+    {
+      "name": "Realme",
+      "color": "Yellow",
+      "price": 18000,
+      "id": "qYX5qwo5n6o"
+    },
+    {
+      "name": "OnePlus",
+      "color": "Green",
+      "price": 35000,
+      "id": "eRBh3cdCpkY"
+    },
+    {
+      "name": "Vivo",
+      "color": "White",
+      "price": 22000,
+      "id": "izPraqi1LB8"
+    },
+    {
+      "name": "Oppo",
+      "color": "Purple",
+      "price": 21000,
+      "id": "hwdj_5Me3SQ"
+    },
+    {
+      "name": "Redmi",
+      "color": "Silver",
+      "price": 16000,
+      "id": "GmFnZoQaA10"
+    },
+    {
+      "name": "iPhone",
+      "color": "Gold",
+      "price": 85000,
+      "id": "k74x1CzyvRk"
+    },
+    {
+      "name": "Motorola",
+      "color": "Gray",
+      "price": 19000,
+      "id": "ekAQC-6DYug"
+    },
+    {
+      "name": "Google Pixel",
+      "color": "Pink",
+      "price": 65000,
+      "id": "cvh-FZVhMaQ"
+    }
+    
+  ],
+  "laptops": [
+    {
+      "brand": "HP",
+      "model": "Pavilion",
+      "price": 62000,
+      "id": "s7wDkyrkjos"
+    },
+    {
+      "brand": "Dell",
+      "model": "Inspiron 15",
+      "price": 55000,
+      "id": "r8YT9R93cjE"
+    },
+    {
+      "brand": "Lenovo",
+      "model": "IdeaPad Slim 5",
+      "price": 64000,
+      "id": "OleriLqoD0o"
+    },
+    {
+      "brand": "Acer",
+      "model": "Aspire 7",
+      "price": 68000,
+      "id": "K_DH6qCW-A4"
+    },
+    {
+      "brand": "ASUS",
+      "model": "Vivobook 15",
+      "price": 62000,
+      "id": "x-mjkZia0mQ"
+    },
+    {
+      "brand": "Apple",
+      "model": "MacBook Air M3",
+      "price": 134900,
+      "id": "BXVAEnNAkGw"
+    },
+    {
+      "brand": "MSI",
+      "model": "GF63 Thin",
+      "price": 92000,
+      "id": "ePVMtHpvcaE"
+    },
+    {
+      "brand": "Samsung",
+      "model": "Galaxy Book4",
+      "price": 78000,
+      "id": "ru6NSAoj3EI"
+    },
+    {
+      "brand": "LG",
+      "model": "Gram 16",
+      "price": 125000,
+      "id": "4-mamGOIsEk"
+    },
+    {
+      "brand": "Huawei",
+      "model": "MateBook D16",
+      "price": 98000,
+      "id": "pp5173rJitM"
+    }
+    
+  ],
+  "books": [
+    {
+      "title": "Python Basics",
+      "author": "John Smith",
+      "price": 450,
+      "id": "1wbleANac9w"
+    },
+    {
+      "title": "Java Programming",
+      "author": "James Lee",
+      "price": 550,
+      "id": "0D53xBmB_YQ"
+    },
+    {
+      "title": "SQL Essentials",
+      "author": "David Brown",
+      "price": 400,
+      "id": "4DPQYWPtp14"
+    },
+    {
+      "title": "C Programming",
+      "author": "Dennis Ritchie",
+      "price": 350,
+      "id": "JDfxfPYDlvM"
+    },
+    {
+      "title": "Web Development",
+      "author": "Alice Green",
+      "price": 600,
+      "id": "R70vGDsIsD0"
+    },
+    {
+      "title": "Data Structures",
+      "author": "Mark Wilson",
+      "price": 700,
+      "id": "3IDF4oFUMYk"
+    },
+    {
+      "title": "Machine Learning",
+      "author": "Andrew Ng",
+      "price": 900,
+      "id": "fyauWI8BFmE"
+    },
+    {
+      "title": "AI Fundamentals",
+      "author": "Tom White",
+      "price": 850,
+      "id": "3uBnwf71S2c"
+    },
+    {
+      "title": "Cloud Computing",
+      "author": "Sarah Miller",
+      "price": 750,
+      "id": "PCLZ9zyVFI8"
+    },
+    {
+      "title": "Cyber Security",
+      "author": "Kevin Mitnick",
+      "price": 800,
+      "id": "ptpj986wGms"
+    }
+    
+  ],
+  "movies": [
+    {
+      "title": "Inception",
+      "genre": "Sci-Fi",
+      "rating": 8.8,
+      "id": "CcOmmtrPs8s"
+    },
+    {
+      "title": "Interstellar",
+      "genre": "Sci-Fi",
+      "rating": 8.7,
+      "id": "fb85p4p1-_E"
+    },
+    {
+      "title": "The Dark Knight",
+      "genre": "Action",
+      "rating": 9,
+      "id": "cDTeqA6bwzE"
+    },
+    {
+      "title": "Avengers: Endgame",
+      "genre": "Action",
+      "rating": 8.4,
+      "id": "ao56L8j3Os8"
+    },
+    {
+      "title": "Titanic",
+      "genre": "Romance",
+      "rating": 7.9,
+      "id": "CGuVc_B9f1s"
+    },
+    {
+      "title": "Joker",
+      "genre": "Drama",
+      "rating": 8.4,
+      "id": "0V8URIiVUUc"
+    },
+    {
+      "title": "3 Idiots",
+      "genre": "Comedy",
+      "rating": 8.4,
+      "id": "KsKuACg2um8"
+    },
+    {
+      "title": "Baahubali",
+      "genre": "Action",
+      "rating": 8,
+      "id": "5AGKEksIkcQ"
+    },
+    {
+      "title": "RRR",
+      "genre": "Action",
+      "rating": 7.8,
+      "id": "1dwU_frSsvs"
+    },
+    {
+      "title": "Pushpa",
+      "genre": "Action",
+      "rating": 7.6,
+      "id": "VqTc53-ZzPQ"
+    }
+  ],
+  "songs": [
+    {
+      "title": "Shape of You",
+      "artist": "Ed Sheeran",
+      "duration": "3:53",
+      "id": "atyJr0Pi_Kk"
+    },
+    {
+      "title": "Blinding Lights",
+      "artist": "The Weeknd",
+      "duration": "3:20",
+      "id": "n-3jXxH66Hs"
+    },
+    {
+      "title": "Perfect",
+      "artist": "Ed Sheeran",
+      "duration": "4:23",
+      "id": "ARqkI-jk3fQ"
+    },
+    {
+      "title": "Believer",
+      "artist": "Imagine Dragons",
+      "duration": "3:24",
+      "id": "uZpwq4V8Itg"
+    },
+    {
+      "title": "Levitating",
+      "artist": "Dua Lipa",
+      "duration": "3:23",
+      "id": "qk9jCkQFdSo"
+    },
+    {
+      "title": "Naatu Naatu",
+      "artist": "Rahul Sipligunj",
+      "duration": "3:34",
+      "id": "zRjFZF7qwa4"
+    },
+    {
+      "title": "Srivalli",
+      "artist": "Sid Sriram",
+      "duration": "3:44",
+      "id": "VFhlecthCj4"
+    },
+    {
+      "title": "Kesariya",
+      "artist": "Arijit Singh",
+      "duration": "4:28",
+      "id": "8fnGRLY7h-I"
+    },
+    {
+      "title": "Butta Bomma",
+      "artist": "Armaan Malik",
+      "duration": "3:15",
+      "id": "LWalh1TqKwg"
+    },
+    {
+      "title": "Samajavaragamana",
+      "artist": "Sid Sriram",
+      "duration": "3:49",
+      "id": "CDAT4Gtrf0g"
+    }
+    
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

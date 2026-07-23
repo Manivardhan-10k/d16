@@ -93,7 +93,7 @@ books= [{ "title": "Python Basics", "author": "John Smith", "price": 450 },
     { "title": "Cyber Security", "author": "Kevin Mitnick", "price": 800 }
   ]
 for book in books:
-   res = requests.post("http://localhost:3000/laptops",json=book)
+   res = requests.post("http://localhost:3000/books",json=book)
    print(res.status_code)
    print(res.json())
 
@@ -110,7 +110,7 @@ movies= [
     { "title": "Pushpa", "genre": "Action", "rating": 7.6 }
   ]
 for movie in movies:
-   res=requests.post("http://localhost:3000/laptops",json=movie)
+   res=requests.post("http://localhost:3000/movies",json=movie)
    print(res.status_code)
    print(res.json())
 
@@ -127,6 +127,6 @@ songs= [
     { "title": "Samajavaragamana", "artist": "Sid Sriram", "duration": "3:49" }
   ]
 for song in songs:
-   res = requests.post("http://localhost:3000/laptops",json=song)
+   res = requests.post("http://localhost:3000/songs",json=song)
    print(res.status_code)
    print(res.json())
